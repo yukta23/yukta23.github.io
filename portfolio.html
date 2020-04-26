@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <title>Yukta Kushwaha</title>
+</head>
+<body>
+    <script>
+        AOS.init();
+        function openTab(th)
+            {
+                window.open(th.name,'_blank');
+            }
+    </script>
+    <div class="header">
+        <h1>Yukta Kushwaha</h1>
+    </div>
+    <div class="info">
+        <div id="profile">
+            <img src='./assets/images/yukta.jpeg' data-aos="fade-right">
+        </div>
+        <div class="description">
+            <p>
+                Hey there !! I am a Computer Engineer, graduate from National Institute Of Technology, Kurukshetra (2016-2020). I have proficiency in Full stack web 
+                development, Data structures and Robotics. I have worked as a Software Development Intern at Fidelity 
+                Investments, Bengaluru. I am a keen learner and a potential developer.
+            </p>
+            <button id="resume_btn"><a onClick="openTab(this)" href="#" name="./assets/pdf/11610561_Yukta_Kushwaha_COE.pdf" style="text-decoration: none;color:#84b4b1;">
+                RESUME</a></button>
+        </div>
+    </div>
+    <div class="heading">MY SKILLS</div><br>
+    <div class="grid-container">
+        <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/C.png' width=150 height=150></div>
+        <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/cpp.png' width=150 height=150></div>
+        <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/python.png' width=150 height=150></div>
+        <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/php.png' width=150 height=150></div>
+        <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/nodejs.png' width=150 height=150></div>
+        <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/html.jpg' width=150 height=150></div>
+        <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/css.png' width=150 height=150></div>
+        <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/javascript.png' width=150 height=150></div>
+        <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/angular.png' width=150 height=150></div>
+        <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/postgre.png' width=150 height=150></div>
+        <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/rpi.png' width=150 height=150></div>
+        <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/arduino.png' width=150 height=150></div>
+      </div>
+      <div style="visibility: hidden; height:40%;">
+    </div>
+    <div class="heading">PROJECTS</div><br>
+    <div class="flip-card" data-aos="zoom-in-up">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h2>Self Service System</h2>
+          </div>
+          <div class="flip-card-back">
+            <p>Developed a Self Service system for Outbound File Configuration using
+                spring boot, mybatis as persistence framework and user interface in
+                angular,database in PostgreSQL as Internship project.</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card" data-aos="zoom-in-up">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h2>Website for SAE club, NIT Kurukshetra</h2>
+          </div>
+          <div class="flip-card-back">
+            <p>Developed a website for SAE club, NIT Kurukshetra with domain name www.
+                saenitkurukshetra.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card" data-aos="zoom-in-up">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h2>Personalized dashboard</h2>
+          </div>
+          <div class="flip-card-back">
+            <p>Worked on development of a web portal to display real time data from
+                sensors connected to Raspberry Pi by creating own server using
+                ExpressJS and Node.JS on Raspberry Pi , using websockets for real
+                time communication in the local network.</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card" data-aos="zoom-in-up">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h2>Voice controlled and obstacle avoiding robot</h2>
+          </div>
+          <div class="flip-card-back">
+            <p>Created Voice Controlled and Obstacle avoiding ROBOT and a Self
+                Balancing BOT ( coding of the microcontroller done in embedded C)
+                which were presented in AUTOKRITI 9.0</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card" data-aos="zoom-in-up">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h2>Hardware and Software interfacing</h2>
+          </div>
+          <div class="flip-card-back">
+            <p>Worked with sensors like Temp Sensor(LM35),
+                Accelerometer (MPU6050), Thermocouple(KMAX6675),ESP 8266, IR
+                Sensor,Hall Sensor, OLED Display for Data Acquisition used
+                in our prototype car “Phantom” using ARDUINO UNO with
+                ATMega328P</p>
+          </div>
+        </div>
+      </div>
+      <div class="heading">CONTACT</div><br>
+      <div class="header contact">
+          <ul style="list-style-type: none;">
+              <li>
+                <i class="fa fa-file-text-o" style="font-size:36px"></i>
+                <a href="mailto:kushwaha.yukta@gmail.com" style="text-decoration: none;color:#fff;">&emsp;kushwaha.yukta@gmail.com</a>
+              </li>
+                <li><i class="fa fa-linkedin-square" style="font-size:36px"></i><a href='https://www.linkedin.com/in/yukta-kushwaha561/' target="_blank"
+                    style="text-decoration: none;color:#fff;">&emsp;LinkedIn</a></li>
+                <li><i class="fa fa-github" style="font-size:36px"></i><a href='https://github.com/yukta23' target="_blank"
+                    style="text-decoration: none;color:#fff;">&emsp;GitHub</a></li>
+          </ul>
+    </div>
+</body>
+</html>
