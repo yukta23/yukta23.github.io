@@ -30,7 +30,7 @@ body,html{
 
 .heading{
     margin:auto;
-    margin-left: 40%;
+    margin-left: 45%;
     margin-bottom: 2%;
     font-family: 'Montserrat', sans-serif;
     font-size: 200%;
@@ -100,6 +100,7 @@ text-align: center;
 .cards_container{
     margin:auto;
     width:100%;
+    padding:5%;
 }
 
 .flip-card {
@@ -142,10 +143,12 @@ text-align: center;
     background-color: #bbb;
     color: #fff;
     background-color: #84b4b1;
+    padding-top: 20%;
   }
 
-  .flip-card-front h1{
+  .flip-card-front h2{
       font-weight: 400;
+      text-shadow: 2px 2px 4px #000000;
   }
   
   /* Style the back side */
@@ -155,6 +158,10 @@ text-align: center;
     transform: rotateY(180deg);
   }
 
+  .hidden{
+    visibility: hidden; 
+    height:40%;
+  }
   .contact{
       display: inline-block;
       text-align: left;
@@ -167,7 +174,49 @@ text-align: center;
     text-shadow: 2px 2px 4px #000000;
   }
   
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 1000px){
+    body{
+        overflow-x: hidden;
+    }
+    .header{
+        height:28%;
+    }
+    #profile{
+        width:300px;
+        height:300px;
+    }
+    .info .description{
+       display: inline-block;
+       width:100%;
+       font-size: 140%;
+   }
+   .heading{
+    margin:auto;
+    margin-left: 35%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%;
+    display:inline-block;
+}
+.grid-container {
+    grid-template-columns: auto auto auto;
+    }
+    .hidden{
+        height:20%;
+    }
+    .flip-card {
+        margin-left:20%;
+        width: 350px;
+        height: 350px;
+        font-size: 120%;
+      }
+      .contact{
+        font-size: 150%;
+        height:35%;
+    }
+
+  }
+
+  @media only screen and (max-width: 450px) {
       body{
           overflow-x: hidden;
       }
@@ -216,8 +265,13 @@ text-align: center;
         font-size: 100%;
         height:35%;
     }
-    .flip-card-front h1{
-        font-weight: 400;
-        font-size: 80%;
+    .flip-card-front h2{
+        font-size: 140%;
+    }
+    .header{
+        height:28%;
+    }
+    .hidden{
+        height:20%;
     }
 }
