@@ -94,6 +94,7 @@ display: grid;
 grid-template-columns: auto auto auto auto;
 padding:0px;
 grid-column-gap:0px;
+overflow-x: hidden;
 }
   
 .grid-item {
