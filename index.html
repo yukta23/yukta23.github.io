@@ -14,6 +14,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./assets/js/main.js"></script>
     <title>Yukta Kushwaha</title>
+   
 </head>
 <body>
     <script>
@@ -28,12 +29,12 @@
     </div>
     <div class="info">
         <div id="profile">
-            <img src='./assets/images/yukta.jpeg' data-aos="fade-right">
+            <img src='./assets/images/yukta.jpeg'>
         </div>
         <div class="description">
             <p>
-                Hey there !! I am a Computer Engineer, graduate from National Institute Of Technology, Kurukshetra (2016-2020). I have proficiency in Full stack web 
-                development, Data structures and Robotics. I have worked as a Software Development Intern at Fidelity 
+                Hey there !! I am a Computer Engineer, graduate from National Institute Of Technology, Kurukshetra (2016-2020). I have proficiency in Full Stack Web 
+                Development, Data structures, Robotics and Embedded systems. I have worked as a Software Development Intern at Fidelity 
                 Investments, Bengaluru. I am a keen learner and a potential developer.
             </p>
             <button id="resume_btn"><a onClick="openTab(this)" href="#" name="./assets/pdf/11610561_Yukta_Kushwaha_COE.pdf" style="text-decoration: none;color:#84b4b1;">
@@ -85,7 +86,7 @@
       <div class="flip-card" data-aos="zoom-in-up">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <h2>Personalized dashboard</h2>
+            <h2>Personalized dashboard based on IoT</h2>
           </div>
           <div class="flip-card-back">
             <p>Worked on development of a web portal to display real time data from
@@ -135,5 +136,9 @@
                     style="text-decoration: none;color:#fff;">&emsp;https://github.com/yukta23</a></li>
           </ul>
     </div>
+    <script>
+      var cw = $('#profile').width();
+      $('#profile').css({'height':cw+'px'});
+    </script>
 </body>
 </html>

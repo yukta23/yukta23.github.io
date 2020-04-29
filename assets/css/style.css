@@ -4,6 +4,9 @@ body,html{
     width:100%;
     height:100%;
 }
+body{
+    overflow-x: hidden;
+}
 .header{
     padding-top: 5%;
     text-align: center;
@@ -46,13 +49,14 @@ body,html{
     margin:auto;
     margin-top: 2%;
     width:60%;
-    height:70%;
+    margin-bottom: 10%;
+    /* height:70%; */
 }
 #profile{
     float:left;
     margin-top: 0px;
     width:250px;
-    height:250px;
+    /* height:250px; */
     border-radius: 4px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -65,6 +69,11 @@ body,html{
     width:50%;
     margin-left: 2%;
     font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+.info .description p{
+    margin-bottom: 0px;
 }
 
 #resume_btn{
@@ -183,32 +192,32 @@ text-align: center;
         height:28%;
     }
     #profile{
-        width:300px;
-        height:300px;
+        width:100%;
+        margin-bottom: 5%;
     }
     .info .description{
        display: inline-block;
        width:100%;
        font-size: 140%;
-   }
-   .heading{
-    margin:auto;
-    margin-left: 35%;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 200%;
-    display:inline-block;
-}
-.grid-container {
-    grid-template-columns: auto auto auto;
     }
+   .heading{
+        margin:auto;
+        margin-left: 35%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 200%;
+        display:inline-block;
+    }
+    .grid-container {
+        grid-template-columns: auto auto auto;
+        }
     .hidden{
         height:20%;
     }
     .flip-card {
         margin-left:20%;
-        width: 350px;
-        height: 350px;
-        font-size: 120%;
+        width: 400px;
+        height: 400px;
+        font-size: 140%;
       }
       .contact{
         font-size: 150%;
@@ -221,33 +230,32 @@ text-align: center;
       body{
           overflow-x: hidden;
       }
-  .header h1{
-    font-size: 40px;
- }
- #profile{
-     width:200px;
-     height:200px;
- }
- .info .description{
-    display: inline-block;
-    width:100%;
-    font-size: 80%;
-}
-.heading{
-    margin:auto;
-    margin-left: 30%;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 120%;
-    display:inline-block;
-}
-#resume_btn{
-    font-size: 100%;
-    display:inline-block;
-}
-.grid-container {
-    grid-template-columns: auto auto;
+    .header h1{
+        font-size: 40px;
     }
-      
+    #profile{
+        width:100%;
+        margin-bottom: 5%;
+    }
+    .info .description{
+        display: inline-block;
+        width:100%;
+        font-size: 80%;
+    }
+    .heading{
+        margin:auto;
+        margin-left: 30%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 120%;
+        display:inline-block;
+    }
+    #resume_btn{
+        font-size: 100%;
+        display:inline-block;
+    }
+    .grid-container {
+        grid-template-columns: auto auto;
+        }
     .grid-item {
     padding: 10px;
     text-align: center;
@@ -262,7 +270,7 @@ text-align: center;
         height: 250px;
         font-size: 100%;
       }
-      .contact{
+    .contact{
         font-size: 100%;
         height:35%;
     }
@@ -270,7 +278,7 @@ text-align: center;
         font-size: 140%;
     }
     .header{
-        height:28%;
+        height:24%;
     }
     .hidden{
         height:20%;
