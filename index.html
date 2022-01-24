@@ -34,28 +34,29 @@
         </div>
         <div class="description">
             <p>
-                Hey there !! I am a Computer Engineer, graduate from National Institute Of Technology, Kurukshetra (2016-2020). I have proficiency in Full Stack Web 
-                Development, Data Structures, Robotics and Embedded Systems. I have worked as a Software Development Intern at Fidelity 
-                Investments, Bengaluru. I am a keen learner and a potential developer.
+                Hey there !! I am a Software Engineer, graduate from National Institute Of Technology, Kurukshetra (2016-2020). I have proficiency in enterprise level Full Stack Web 
+                Development, Data Structures and System Design. I am currently working as a Software Engineer at Fidelity Investments. 
+                I have an experience of <span id ="yoe"></span> years. 
+                I am a keen learner and a potential developer.
             </p>
-            <button id="resume_btn"><a onClick="openTab(this)" href="#" name="./assets/pdf/11610561_Yukta_Kushwaha_COE.pdf" style="text-decoration: none;color:#84b4b1;">
+            <button id="resume_btn"><a onClick="openTab(this)" href="#" name="./assets/pdf/Yukta_Kushwaha_Resume.pdf" style="text-decoration: none;color:#84b4b1;">
                 RESUME</a></button>
         </div>
     </div><br>
     <div class="heading">MY SKILLS</div><br>
     <div class="grid-container">
-        <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/C.png'></div>
+        <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/java.png'></div>
         <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/cpp.png'></div>
-        <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/python.png'></div>
-        <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/php.png'></div>
+        <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/springBoot.jpeg'></div>
+        <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/angular.png'></div>
         <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/nodejs.png'></div>
+        <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/aws.png'></div>
         <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/html.jpg'></div>
         <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/css.png'></div>
         <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/javascript.png'></div>
-        <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/angular.png'></div>
         <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/postgre.png'></div>
-        <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/rpi.png'></div>
-        <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/arduino.png'></div>
+        <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/git.png'></div>
+        <div class="grid-item" data-aos="zoom-out-up"><img src='./assets/images/devops.png'></div>
       </div>
       <div class="hidden">
     </div>
@@ -140,6 +141,13 @@
     <script>
       var cw = $('#profile').width();
       $('#profile').css({'height':cw+'px'});
+
+      let yoeSpan = document.getElementById("yoe");
+        let date1 = new Date("08/14/2020");
+        let date2 = new Date();
+        let difference_in_days = (date2.getTime() - date1.getTime()) / (1000*3600*24);
+        let years = difference_in_days/365;
+        yoeSpan.innerHTML = years.toFixed(1);
     </script>
 </body>
 </html>
